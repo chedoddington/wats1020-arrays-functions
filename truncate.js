@@ -7,7 +7,7 @@ function truncateWords (longText, numWords) {
 	// 1. Use the split() function to split the String into an Array
 	var arrayOfText = longText.split(" ");
 	// 2. Use the length attribut to find the number of words in the Array	
-	var lengthOfArray = arraOfText.length;
+	var lengthOfArray = arrayOfText.length;
 	// 3. Determine how many words should be removed from the String
 	var remainingWords = lengthOfArray - numWords;
 	// 4. Remove those words from the Array
